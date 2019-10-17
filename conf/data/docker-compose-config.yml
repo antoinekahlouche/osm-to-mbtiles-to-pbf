@@ -1,0 +1,8 @@
+version: "2"
+services:
+    generate-vectortiles:
+        environment:
+            OSM_AREA_NAME: "planet"
+            BBOX: "-180, -90, 180, 90"
+            MIN_ZOOM: "2"
+            MAX_ZOOM: "11"
